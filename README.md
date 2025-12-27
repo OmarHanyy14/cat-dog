@@ -57,7 +57,7 @@ Improve UI (image cropping, drag-and-drop).
 
 Test state-of-the-art models like EfficientNet.
 
-Credits
+Project division
 ---------------------------------------------------------------------------------------
 
 Model: Mostafa Ezz Eldeen
