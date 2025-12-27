@@ -55,8 +55,9 @@ This project is ideal for those interested in exploring computer vision applicat
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ahmed1more/Dogs-Cats-Classification-Model.git
-   cd Dogs-Cats-Classification-Model
+   git clone https://github.com/OmarHanyy14/cat-dog.git
+cd cat-dog
+
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -150,5 +151,4 @@ We welcome contributions! To contribute:
 ## Acknowledgements
 
 - [Kaggle Dogs vs Cats Dataset](https://www.kaggle.com/c/dogs-vs-cats/data)
-- [Streamlit Documentation](https://docs.streamlit.io)
 - Tutorials and guides on CNN-based image classification.
