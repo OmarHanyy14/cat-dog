@@ -27,6 +27,7 @@ pip install -r requirements.txt
 streamlit run Web-App.py
 
 Usage
+---------------------------------------------------------------
 
 Open the Streamlit app.
 
@@ -35,12 +36,12 @@ Upload an image of a dog or cat.
 View the classification result.
 
 Dataset
-
+---------------------------------------------------------------------
 Trained on Dogs vs Cats dataset from Kaggle.
 Kaggle Dataset Link
 
 How It Works
-
+-----------------------------------------------------------------------------------------
 Data Preprocessing: Resize images, apply data augmentation.
 
 Model Training: CNN trained with Binary Crossentropy and Adam optimizer.
@@ -50,7 +51,7 @@ Prediction: Uploaded images are classified with probability scores.
 Web Interface: Streamlit provides a simple user interface.
 
 Future Improvements
-
+---------------------------------------------------------------------------------------------
 Add more animal categories.
 
 Improve UI (image cropping, drag-and-drop).
