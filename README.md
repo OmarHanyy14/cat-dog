@@ -48,7 +48,7 @@ Model Training: CNN trained with Binary Crossentropy and Adam optimizer.
 
 Prediction: Uploaded images are classified with probability scores.
 
-Web Interface: Streamlit provides a simple user interface.
+Web Interface: Streamlit provides 
 
 Future Improvements
 ---------------------------------------------------------------------------------------------
