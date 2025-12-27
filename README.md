@@ -2,6 +2,16 @@ Dogs-Cats-Classification-Model
 
 A CNN-based project to classify images as Dog or Cat, with an interactive Streamlit web application for real-time predictions.
 
+
+Installation
+git clone https://github.com/OmarHanyy14/cat-dog.git
+cd cat-dog
+
+python -m venv env
+env\Scripts\activate  # Windows
+
+pip install -r requirements.txt
+
 1. Problem Definition and Data Collection
 
 Problem: Automatically classify images into two classes: Dog or Cat.
@@ -76,15 +86,15 @@ Upload images
 
 Display predictions in real-time
 
+Project division 
+-------------------------------------------------
+1- model design (mostafa)
+2- preprocessing (omar hany)
+3- training (youssef)
+4- visualization (smaeh abbas - momen)
+5- gui (abderahman fawzy)
+
 Run the application using:
 
 streamlit run Web-App.py
 
-Installation
-git clone https://github.com/OmarHanyy14/cat-dog.git
-cd cat-dog
-
-python -m venv env
-env\Scripts\activate  # Windows
-
-pip install -r requirements.txt
