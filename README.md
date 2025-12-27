@@ -3,12 +3,14 @@ Dogs-Cats-Classification-Model
 A CNN-based project to classify images as Dog or Cat, with an interactive Streamlit web application for real-time predictions.
 
 1. Problem Definition and Data Collection
+    -------------------------------------------------
 
 Problem: Automatically classify images into two classes: Dog or Cat.
 
 Objective: Build an accurate and scalable image classification model and deploy it using a simple web interface.
 
 Dataset:
+--------------------------------------------------------------------
 
 Dogs vs Cats dataset from Kaggle
 
@@ -23,6 +25,7 @@ Verify class balance between dog and cat images.
 Analyze image sizes and formats to ensure consistency before preprocessing.
 
 3. Feature Engineering
+4. --------------------------------------
 
 Resize images to a fixed input size.
 
@@ -37,6 +40,7 @@ Random rotations
 Scaling
 
 4. Model Design
+   ----------------------------------------------------
 
 A Convolutional Neural Network (CNN) architecture is used.
 
@@ -51,6 +55,7 @@ Fully connected layers for classification
 Dropout layers to reduce overfitting
 
 5. Model Training
+ ----------------------------------------------
 
 Loss Function: Binary Crossentropy
 
@@ -61,6 +66,7 @@ Training performed on the prepared dataset.
 Pre-trained weights are used to improve training speed and accuracy.
 
 6. Model Testing and Inference
+   ---------------------------------------------------------------------
 
 Evaluate model performance on validation/test images.
 
@@ -69,6 +75,7 @@ Output class probabilities for each image.
 Final prediction is selected based on the highest probability score.
 
 7. GUI Implementation and Application Running
+ ------------------------------------------------------
 
 A Streamlit web application is built to:
 
@@ -111,14 +118,6 @@ Training: Yousef Ahmed
 Visualization: Sameh Addas, Moamen Sabry
 
 GUI / Web Application: Abdelrahman Fawzy
-
-Future Improvements
--------------------------------------------------
-Add more animal categories.
-
-Improve the user interface (image cropping, drag-and-drop).
-
-Experiment with advanced architectures such as EfficientNet.
 
 Acknowledgements
 -----------------------------------------------------
