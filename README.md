@@ -81,6 +81,7 @@ Run the application using:
 streamlit run Web-App.py
 
 Installation
+---------------------------------------------
 git clone https://github.com/OmarHanyy14/cat-dog.git
 cd cat-dog
 
@@ -91,14 +92,16 @@ pip install -r requirements.txt
 
 Usage
 
-Launch the Streamlit app.
+Launch the Streamlit app. 
+-----------------------------
+streamlit run Web-App.py
 
 Upload an image of a dog or a cat.
 
 View the classification result and confidence score.
 
 Project Division
-
+-------------------------------------------------------------
 Model Design: Mostafa Ezz Eldeen
 
 Preprocessing: Omar Hany
@@ -110,7 +113,7 @@ Visualization: Sameh Addas, Moamen Sabry
 GUI / Web Application: Abdelrahman Fawzy
 
 Future Improvements
-
+-------------------------------------------------
 Add more animal categories.
 
 Improve the user interface (image cropping, drag-and-drop).
@@ -118,7 +121,7 @@ Improve the user interface (image cropping, drag-and-drop).
 Experiment with advanced architectures such as EfficientNet.
 
 Acknowledgements
-
+-----------------------------------------------------
 Kaggle Dogs vs Cats Dataset
 
 Tutorials and guides on CNN-based image classification
