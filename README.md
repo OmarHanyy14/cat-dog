@@ -88,11 +88,11 @@ Display predictions in real-time
 
 Project division 
 -------------------------------------------------
-1- model design (mostafa)
-2- preprocessing (omar hany)
-3- training (youssef)
-4- visualization (smaeh abbas - momen)
-5- gui (abderahman fawzy)
+1- model design (mostafa).
+2- preprocessing (omar hany).
+3- training (youssef).
+4- visualization (smaeh abbas - momen).
+5- gui (abderahman fawzy).
 
 Run the application using:
 
