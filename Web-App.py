@@ -45,10 +45,3 @@ if uploaded_file:
         label, prob = predict_image(image, threshold)
         st.write(f"Prediction: **{label}** ({prob*100:.2f}%)")
 
-  
-
-    if camera_image:
-        image = Image.open(camera_image)
-        st.subheader("Camera Image Prediction:")
-        # Call the processing function we defined earlier
-        process_and_predict(image,conf_threshold, "Captured Image")
