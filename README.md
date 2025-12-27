@@ -38,7 +38,7 @@ View the classification result.
 Dataset
 ---------------------------------------------------------------------
 Trained on Dogs vs Cats dataset from Kaggle.
-Kaggle Dataset Link
+Kaggle Dataset Link https://www.kaggle.com/datasets/tongpython/cat-and-dog
 
 How It Works
 -----------------------------------------------------------------------------------------
