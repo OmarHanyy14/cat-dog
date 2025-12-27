@@ -1,67 +1,105 @@
-Dogs-Cats-Classification-Model 
+Dogs-Cats-Classification-Model
 
-A CNN project to classify images as Dog or Cat, with an interactive web app built using Streamlit.
+A CNN-based project to classify images as Dog or Cat, with an interactive Streamlit web application for real-time predictions.
 
-Features
+1. Problem Definition and Data Collection
 
-Accurate Classification: Dog / Cat.
+Problem: Automatically classify images into two classes: Dog or Cat.
 
-Interactive Web App: Upload images and see results in real-time.
+Objective: Build an accurate and scalable image classification model and deploy it using a simple web interface.
 
-Pre-Trained Weights: For faster training and better performance.
+Dataset:
 
-Scalable: Works with larger datasets.
+Dogs vs Cats dataset from Kaggle
+
+Dataset link: https://www.kaggle.com/datasets/tongpython/cat-and-dog
+
+2. Data Cleaning and Analysis
+
+Remove corrupted or invalid images (if any).
+
+Verify class balance between dog and cat images.
+
+Analyze image sizes and formats to ensure consistency before preprocessing.
+
+3. Feature Engineering
+
+Resize images to a fixed input size.
+
+Normalize pixel values.
+
+Apply data augmentation techniques to improve generalization:
+
+Random flips
+
+Random rotations
+
+Scaling
+
+4. Model Design
+
+A Convolutional Neural Network (CNN) architecture is used.
+
+The model consists of:
+
+Convolutional layers for feature extraction
+
+Pooling layers for dimensionality reduction
+
+Fully connected layers for classification
+
+Dropout layers to reduce overfitting
+
+5. Model Training
+
+Loss Function: Binary Crossentropy
+
+Optimizer: Adam
+
+Training performed on the prepared dataset.
+
+Pre-trained weights are used to improve training speed and accuracy.
+
+6. Model Testing and Inference
+
+Evaluate model performance on validation/test images.
+
+Output class probabilities for each image.
+
+Final prediction is selected based on the highest probability score.
+
+7. GUI Implementation and Application Running
+
+A Streamlit web application is built to:
+
+Upload images
+
+Display predictions in real-time
+
+Run the application using:
+
+streamlit run Web-App.py
 
 Installation
 git clone https://github.com/OmarHanyy14/cat-dog.git
 cd cat-dog
 
-# Create virtual environment
 python -m venv env
 env\Scripts\activate  # Windows
 
-# Install dependencies
 pip install -r requirements.txt
 
-# Run the app
-streamlit run Web-App.py
-
 Usage
----------------------------------------------------------------
 
-Open the Streamlit app.
+Launch the Streamlit app.
 
-Upload an image of a dog or cat.
+Upload an image of a dog or a cat.
 
-View the classification result.
+View the classification result and confidence score.
 
-Dataset
----------------------------------------------------------------------
-Trained on Dogs vs Cats dataset from Kaggle.
-Kaggle Dataset Link https://www.kaggle.com/datasets/tongpython/cat-and-dog
+Project Division
 
-How It Works
------------------------------------------------------------------------------------------
-Data Preprocessing: Resize images, apply data augmentation.
-
-Model Training: CNN trained with Binary Crossentropy and Adam optimizer.
-
-Prediction: Uploaded images are classified with probability scores.
-
-Web Interface: Streamlit provides 
-
-Future Improvements
----------------------------------------------------------------------------------------------
-Add more animal categories.
-
-Improve UI (image cropping, drag-and-drop).
-
-Test state-of-the-art models like EfficientNet.
-
-Project division
----------------------------------------------------------------------------------------
-
-Model: Mostafa Ezz Eldeen
+Model Design: Mostafa Ezz Eldeen
 
 Preprocessing: Omar Hany
 
@@ -69,9 +107,18 @@ Training: Yousef Ahmed
 
 Visualization: Sameh Addas, Moamen Sabry
 
-GUI / Web App: Abdelrahman Fawzy
+GUI / Web Application: Abdelrahman Fawzy
 
-## Acknowledgements
+Future Improvements
 
-- [Kaggle Dogs vs Cats Dataset](https://www.kaggle.com/c/dogs-vs-cats/data)
-- Tutorials and guides on CNN-based image classification.
+Add more animal categories.
+
+Improve the user interface (image cropping, drag-and-drop).
+
+Experiment with advanced architectures such as EfficientNet.
+
+Acknowledgements
+
+Kaggle Dogs vs Cats Dataset
+
+Tutorials and guides on CNN-based image classification
